@@ -30,11 +30,11 @@ class cardHolder
   {
    return pin;
   }
-  public string firstName()
+  public string getfirstName()
   {
    return firstName;
   }
-  public string lastName()
+  public string getlastName()
   {
    return lastName;
   }
