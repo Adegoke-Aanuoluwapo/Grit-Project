@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\HIS MERCY\\Desktop\\Grit-Project\\ATM\\ATM\\ATM.csproj",
+      "projectUniqueName": "C:\\Users\\HIS MERCY\\Desktop\\Grit-Project\\ATM\\ATM.csproj",
       "projectName": "ATM",
-      "projectPath": "c:\\Users\\HIS MERCY\\Desktop\\Grit-Project\\ATM\\ATM\\ATM.csproj",
+      "projectPath": "C:\\Users\\HIS MERCY\\Desktop\\Grit-Project\\ATM\\ATM.csproj",
       "packagesPath": "C:\\Users\\HIS MERCY\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\HIS MERCY\\Desktop\\Grit-Project\\ATM\\ATM\\obj\\",
+      "outputPath": "C:\\Users\\HIS MERCY\\Desktop\\Grit-Project\\ATM\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HIS MERCY\\AppData\\Roaming\\NuGet\\NuGet.Config"
