@@ -48,9 +48,21 @@ class cardHolder
   {
    cardNum = newCardNum;
   }
-  public void setPin(double newPin)
+  public void setPin(int newPin)
   {
    pin = newPin;
+  }
+  public void setFirstName(string newFirstName)
+  {
+   firstName = newFirstName;
+  }
+  public void setLastName(string newLastName)
+  {
+   lastName = newLastName;
+  }
+  public void setBalance(double newBalance)
+  {
+   balance = newBalance;
   }
 
  }
