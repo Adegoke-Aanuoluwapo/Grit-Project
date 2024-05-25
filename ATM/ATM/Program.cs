@@ -96,6 +96,12 @@ class cardHolder
     Console.WriteLine("You're good to go Thank you :");
    }
   }
+  void balance(cardHolder currentUser)
+  {
+   Console.WriteLine("Your current balance is: " + currentUser.getBalance());
+  }
+  List<cardHolder> cardHolders = new List<cardHolder>();
+  cardHolders.Add(new cardHolder("4532774556655", "1234", "John", "Griffit" 1000));
 
  
 
