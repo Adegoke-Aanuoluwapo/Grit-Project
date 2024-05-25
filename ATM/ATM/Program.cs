@@ -4,8 +4,7 @@ using System;
 namespace MyProject;
 class cardHolder
 {
- static void Main(string[] args)
- {
+ 
   //Console.WriteLine("Hello, World!");
   string cardNum;
   int pin;
@@ -64,6 +63,13 @@ class cardHolder
   {
    balance = newBalance;
   }
+ static void Main(string[] args)
+ {
+  void printOptions()
+  {
+   Console.WriteLine("Please choose an option");
+  }
 
+  printOptions();
  }
 }
