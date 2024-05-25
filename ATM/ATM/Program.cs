@@ -67,7 +67,12 @@ class cardHolder
  {
   void printOptions()
   {
-   Console.WriteLine("Please choose an option");
+   Console.WriteLine("Please choose an option......");
+   Console.WriteLine("1. Deposit");
+   Console.WriteLine("2. Withdraw");
+   Console.WriteLine("3. Show Balance");
+   Console.WriteLine("4. Exit");
+
   }
 
   printOptions();
