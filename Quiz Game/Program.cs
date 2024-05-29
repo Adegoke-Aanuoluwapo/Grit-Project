@@ -2,15 +2,19 @@
 
 Console.WriteLine("Hello");
 string filePath = "questions/grat.txt";
-// string[] text = File.ReadAllLines("questions.txt");
-if (File.Exists(filePath))
+string[] text = File.ReadAllLines("questions.txt");
+List<string> questions = new List<string>();
+List<string> answers = new List<string>();
+for(int i = 0; i <  text.Length; i++)
 {
-
- string[] text = File.ReadAllLines("questions/grat.txt");
-foreach(string line in text){
- Console.WriteLine(line);
-}
-}
-else{
- Console.WriteLine($"Error: File not found at path {filePath}");
+ if(i % 4 == 0)
+ {
+  questions.Add(text[i]);
+ }
+ else{
+  answers.Add(text[i]);
+ }
+ int questionsIndex = 0;
+ int answersIndex = 0;
+ int score = 0;
 }
