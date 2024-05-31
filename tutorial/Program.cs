@@ -1,16 +1,30 @@
 ﻿using System;
 using System.Text;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Tutorial
-{
-         class Program
-         {
+{   
+  public static class Program{
+
+   
            static void Main(string[] args)
            {
-            int age = 34;
-            Console.WriteLine(age);
-           Console.WriteLine(int.MaxValue);
-           Console.WriteLine(int.MinValue);
+           Console.WriteLine("Grace");
+           
+
+           int x = 30,
+                y = 39,
+                z = 59;
+                Console.WriteLine(x);
+                Console.WriteLine(y);
+                Console.WriteLine(z);
+                string name = "Abiodun";
+                Console.WriteLine("Your name is ");
+                Console.Write(name);
+                Console.WriteLine("great");
+
+
            }
          }
 }
