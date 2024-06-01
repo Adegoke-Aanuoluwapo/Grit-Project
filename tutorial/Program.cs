@@ -13,16 +13,19 @@ namespace Tutorial
            Console.WriteLine("Grace");
            
 
-           int x = 30,
-                y = 39,
-                z = 59;
-                Console.WriteLine(x);
-                Console.WriteLine(y);
-                Console.WriteLine(z);
-                string name = "Abiodun";
-                Console.WriteLine("Your name is ");
-                Console.Write(name);
-                Console.WriteLine("great");
+           int firstNumber = 30,
+                secondNumber = 7;
+                Console.WriteLine(firstNumber/secondNumber);
+                Console.WriteLine(firstNumber%secondNumber);
+
+              
+                // Console.WriteLine(x);
+                // Console.WriteLine(y);
+                // Console.WriteLine(z);
+                // string name = "Abiodun";
+                // Console.WriteLine("Your name is ");
+                // Console.Write(name);
+                // Console.WriteLine("great");
 
 
            }
