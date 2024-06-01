@@ -63,8 +63,39 @@ namespace Tutorial
                 // int sum = numberA + numberB; 
                 // Console.WriteLine("The product of the two numbers is: "+product+ "and the sum is "+ sum);
                 // int actualAnswer = Convert.ToInt32(sum)
+                Console.Write("Enter a day of the week: ");
+                int day = Convert.ToInt32(Console.ReadLine());
+                // if(day == 1)
+                // {
+                //   Console.WriteLine("Sunday");
+                // }
+                // else if (day == 2)
+                // {
+                //   Console.WriteLine("Monday");
+                // }
+                // else if (day == 3)
+                // {
+                //   Console.WriteLine("Tuesday");
+                // }
+                // else if (day == 4)
+                // {
+                //   Console.WriteLine("Wednesday");
+                // }
+                switch (day)
+                {
+                  case 1: Console.WriteLine("Monday");
+                          break;
+
+                  }
+                  case 2:   Console.WriteLine("Tue");
+                    break;
+
+                  }
+    }
 
 
-           }
-         }
+
+
+    }
+  }
 }
