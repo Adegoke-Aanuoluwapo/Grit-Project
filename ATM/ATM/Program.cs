@@ -88,7 +88,7 @@ class cardHolder
 
    if (currentUser.getBalance() > withdrawal)
    {
-    Console.WriteLine("insufficient fund")
+    Console.WriteLine("insufficient fund");
   }
    else
    {
@@ -101,10 +101,39 @@ class cardHolder
    Console.WriteLine("Your current balance is: " + currentUser.getBalance());
   }
   List<cardHolder> cardHolders = new List<cardHolder>();
-  cardHolders.Add(new cardHolder("4532774556655", "1234", "John", "Griffit" 1000));
+  cardHolders.Add(new cardHolder("4532774556655", 1234, "John", "Griffit", 150));
+  cardHolders.Add(new cardHolder("4596997976962", 1454, "Ademefun", "Graham", 146));
+  cardHolders.Add(new cardHolder("4596997976945", 9990, "Frida", "Dickerson", 839));
+
+  //Prompt
+  Console.WriteLine("Welcome to simple ATM");
+  Console.WriteLine("Please insert your debit card: ");
+  string debitCardNum = "";
+  cardHolder = currentUser;
+
+ while (true)
+ {
+   try{
+        userPin = Int.Parse(Console.ReadLine());
+    currentUser = cardHolders.FirstOrDefault(a => a.cardNum == debitCardNum);
+    if (currentUser != null)
+    {
+     break;
+    }
+    else
+    {
+     Console.WriteLine("Card not recognized please try again");
+    }
+   }
+   catch
+   {
+    Console.WriteLine("Card not recognized, Please try again");
+   }
+
+  }
 
  
 
-  printOptions();
+  //printOptions();
  }
 }

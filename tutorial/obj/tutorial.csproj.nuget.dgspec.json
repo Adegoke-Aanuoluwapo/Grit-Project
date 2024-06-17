@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HIS MERCY\\Desktop\\Grit-Project\\tutorial\\tutorial.csproj": {}
+    "C:\\Users\\Hp\\Desktop\\Desktop\\Grit-Project\\tutorial\\tutorial.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HIS MERCY\\Desktop\\Grit-Project\\tutorial\\tutorial.csproj": {
+    "C:\\Users\\Hp\\Desktop\\Desktop\\Grit-Project\\tutorial\\tutorial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HIS MERCY\\Desktop\\Grit-Project\\tutorial\\tutorial.csproj",
+        "projectUniqueName": "C:\\Users\\Hp\\Desktop\\Desktop\\Grit-Project\\tutorial\\tutorial.csproj",
         "projectName": "tutorial",
-        "projectPath": "C:\\Users\\HIS MERCY\\Desktop\\Grit-Project\\tutorial\\tutorial.csproj",
-        "packagesPath": "C:\\Users\\HIS MERCY\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HIS MERCY\\Desktop\\Grit-Project\\tutorial\\obj\\",
+        "projectPath": "C:\\Users\\Hp\\Desktop\\Desktop\\Grit-Project\\tutorial\\tutorial.csproj",
+        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hp\\Desktop\\Desktop\\Grit-Project\\tutorial\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HIS MERCY\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

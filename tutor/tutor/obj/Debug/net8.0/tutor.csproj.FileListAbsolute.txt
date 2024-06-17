@@ -1,0 +1,15 @@
+C:\Users\Hp\Desktop\Desktop\Grit-Project\tutor\tutor\bin\Debug\net8.0\tutor.exe
+C:\Users\Hp\Desktop\Desktop\Grit-Project\tutor\tutor\bin\Debug\net8.0\tutor.deps.json
+C:\Users\Hp\Desktop\Desktop\Grit-Project\tutor\tutor\bin\Debug\net8.0\tutor.runtimeconfig.json
+C:\Users\Hp\Desktop\Desktop\Grit-Project\tutor\tutor\bin\Debug\net8.0\tutor.dll
+C:\Users\Hp\Desktop\Desktop\Grit-Project\tutor\tutor\bin\Debug\net8.0\tutor.pdb
+C:\Users\Hp\Desktop\Desktop\Grit-Project\tutor\tutor\obj\Debug\net8.0\tutor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\Desktop\Desktop\Grit-Project\tutor\tutor\obj\Debug\net8.0\tutor.AssemblyInfoInputs.cache
+C:\Users\Hp\Desktop\Desktop\Grit-Project\tutor\tutor\obj\Debug\net8.0\tutor.AssemblyInfo.cs
+C:\Users\Hp\Desktop\Desktop\Grit-Project\tutor\tutor\obj\Debug\net8.0\tutor.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Desktop\Desktop\Grit-Project\tutor\tutor\obj\Debug\net8.0\tutor.sourcelink.json
+C:\Users\Hp\Desktop\Desktop\Grit-Project\tutor\tutor\obj\Debug\net8.0\tutor.dll
+C:\Users\Hp\Desktop\Desktop\Grit-Project\tutor\tutor\obj\Debug\net8.0\refint\tutor.dll
+C:\Users\Hp\Desktop\Desktop\Grit-Project\tutor\tutor\obj\Debug\net8.0\tutor.pdb
+C:\Users\Hp\Desktop\Desktop\Grit-Project\tutor\tutor\obj\Debug\net8.0\tutor.genruntimeconfig.cache
+C:\Users\Hp\Desktop\Desktop\Grit-Project\tutor\tutor\obj\Debug\net8.0\ref\tutor.dll

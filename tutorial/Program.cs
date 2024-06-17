@@ -2,6 +2,7 @@
 using System.Text;
 using System.Collections.Generic;
 using System.Linq;
+using System.Globalization;
 
 namespace Tutorial
 {   
@@ -10,92 +11,37 @@ namespace Tutorial
    
            static void Main(string[] args)
            {
-           Console.WriteLine("Grace");
-           
-
-           int firstNumber = 30,
-                secondNumber = 7;
-                Console.WriteLine(firstNumber/secondNumber);
-                Console.WriteLine(firstNumber%secondNumber);
-
-            var money = 14.99M;
-            var precision = 5.000001F;
-            Console.WriteLine(money);
-            Console.WriteLine(precision);
-
-
+          
               
-                // Console.WriteLine(x);
-                // Console.WriteLine(y);
-                // Console.WriteLine(z);
-                // string name = "Abiodun";
-                //Console.WriteLine("Your name is ");
-                // Console.Write(name);
-               //string prompt = Console.ReadLine();
-              //  Console.WriteLine("You are welcome "+prompt);
-              //  Console.WriteLine("Enter your Age: ");
-              //  string ageInput = Console.ReadLine();
-              //  int age = Convert.ToInt32(Console.ReadLine());
-              //  Console.WriteLine("Your name is " +prompt+ " and your age is " + age);
-                // Console.WriteLine("great");
-                // if(age >= 18){
-                //   Console.WriteLine("You are eligible to vote");
-                // }
-                // if(age < 0 || age > 150){
-                //   Console.WriteLine("Invalid input");
-                // }
-                // else{
-                //   if(age >= 18 && age<= 25)
-                //   {
-                //     Console.WriteLine("You are between 18 and 25");
-                //   }
-                //   else if(age >= 26){
-                //     Console.WriteLine("You are above 26");
-                //   }
-                // }
-                // Console.WriteLine("Enter the first number: ");
-                // // string numberAinput = Console.ReadLine();
-                // int numberA = Convert.ToInt32(Console.ReadLine());
-                // //Console.ReadLine();
-                // Console.WriteLine("Enter the second number");
-                // int numberB = Convert.ToInt32(Console.ReadLine());
-                // int product = numberA * numberB;
-                // int sum = numberA + numberB; 
-                // Console.WriteLine("The product of the two numbers is: "+product+ "and the sum is "+ sum);
-                // int actualAnswer = Convert.ToInt32(sum)
-                Console.Write("Enter a day of the week: ");
-                int day = Convert.ToInt32(Console.ReadLine());
-                // if(day == 1)
-                // {
-                //   Console.WriteLine("Sunday");
-                // }
-                // else if (day == 2)
-                // {
-                //   Console.WriteLine("Monday");
-                // }
-                // else if (day == 3)
-                // {
-                //   Console.WriteLine("Tuesday");
-                // }
-                // else if (day == 4)
-                // {
-                //   Console.WriteLine("Wednesday");
-                // }
-                switch (day)
-                {
-                  case 1: Console.WriteLine("Monday");
-                          break;
+           
+              // int age = 10;
+              // string result = age >= 0 ? "Valid" : "Invalid";
+              // Console.WriteLine(result);  
+              double  value = 1000D /12.340;
+              Console.WriteLine(value);
+              Console.WriteLine(string.Format("{0:0}", value));
+              Console.WriteLine(string.Format("{0:0.#}", value));
+              Console.WriteLine(string.Format("{0:0.00}", value));
+              
 
-                  }
-                  case 2:   Console.WriteLine("Tue");
-                    break;
-
-                  }
-    }
-
+              double money = 100 / 3D;
+              Console.WriteLine(money);
+              Console.WriteLine(string.Format("$10 /$3 ={0:0.00}", money));
+              Console.WriteLine(money.ToString("C"));
+              
+              Console.WriteLine(money.ToString("C0"));
+              Console.WriteLine(money.ToString("C1"));
+              Console.WriteLine("Hello World");
+              Console.WriteLine(money.ToString("C", CultureInfo.CurrentCulture));
+              Console.WriteLine(money.ToString("C", CultureInfo.CreateSpecificCulture("en-AU")));
+              Console.WriteLine(money.ToString("C", CultureInfo.CreateSpecificCulture("en-GB")));
+              Console.WriteLine(money.ToString("C", CultureInfo.CreateSpecificCulture("en-US")));
+              Console.ReadLine();
 
 
 
     }
+    
+  
   }
 }
