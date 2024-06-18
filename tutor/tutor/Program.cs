@@ -3,6 +3,8 @@ using System.Text;
 using System.Collections.Generic;
 using System.Linq;
 using System.Globalization;
+using System.Threading.Tasks;
+using System.Threading;
 
 namespace Tutorial
 {   
@@ -64,11 +66,56 @@ namespace Tutorial
              Console.WriteLine(test);
              string[] names = new string []{"Aba", "Test", "Test2"};
              Console.WriteLine(string.Concat(names));
-             string greet = Console.ReadLine();
-             Console.WriteLine($"You are welcome {greet}");
-             Console.ReadLine();
-
-
+            //  Console.Write("Enter your name:");
+            //  string greet = Console.ReadLine();
+             
+            //  if(greet != string.Empty){
+            //      Console.WriteLine($"You are welcome {greet}");
+            //  }
+            //  else{
+            //   Console.WriteLine("You didn't enter anything");
+            //  }
+            
+            //  Console.ReadLine();
+            //  string message = "Hello";
+            // string compare = "Hello World";
+            // if(message.Equals(compare))
+            // {
+            //   Console.WriteLine("Same");
+            // }
+            // else
+            // {
+            //   Console.WriteLine("Not same");
+            // }
+            // Console.WriteLine("Enter your name");
+            // string named = Console.ReadLine();
+            // if(named != string.Empty)
+            // {
+            //   Console.WriteLine($"Your name is {named}");
+            // }
+            // else
+            // {
+            //   Console.WriteLine("You didn't enter anything");
+            // }
+            // char[] chars = new char[]{'H', 'e', 'l', 'l', 'o'};
+            // object newCompare = new string(chars);
+            // if(message ==newCompare)
+            // {
+            //   Console.WriteLine("Same");
+            // }
+            // else
+            // {
+            //   Console.WriteLine("Not same");
+            // }
+            // Console.WriteLine(chars);
+            string message = "C# is awesome";
+           for(int i = 0; i < message.Length; i++)
+           {
+            Console.Write(message[i]);
+            Thread.Sleep(50);
+           }
+           Console.WriteLine();
+           Console.WriteLine(message.Contains("#"));
 
     }
     
