@@ -1,0 +1,15 @@
+C:\Users\Hp\Desktop\Desktop\Grit-Project\FizzBuzz\Fizzbuzz\bin\Debug\net8.0\FizzBuzz.exe
+C:\Users\Hp\Desktop\Desktop\Grit-Project\FizzBuzz\Fizzbuzz\bin\Debug\net8.0\FizzBuzz.deps.json
+C:\Users\Hp\Desktop\Desktop\Grit-Project\FizzBuzz\Fizzbuzz\bin\Debug\net8.0\FizzBuzz.runtimeconfig.json
+C:\Users\Hp\Desktop\Desktop\Grit-Project\FizzBuzz\Fizzbuzz\bin\Debug\net8.0\FizzBuzz.dll
+C:\Users\Hp\Desktop\Desktop\Grit-Project\FizzBuzz\Fizzbuzz\bin\Debug\net8.0\FizzBuzz.pdb
+C:\Users\Hp\Desktop\Desktop\Grit-Project\FizzBuzz\Fizzbuzz\obj\Debug\net8.0\FizzBuzz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\Desktop\Desktop\Grit-Project\FizzBuzz\Fizzbuzz\obj\Debug\net8.0\FizzBuzz.AssemblyInfoInputs.cache
+C:\Users\Hp\Desktop\Desktop\Grit-Project\FizzBuzz\Fizzbuzz\obj\Debug\net8.0\FizzBuzz.AssemblyInfo.cs
+C:\Users\Hp\Desktop\Desktop\Grit-Project\FizzBuzz\Fizzbuzz\obj\Debug\net8.0\FizzBuzz.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Desktop\Desktop\Grit-Project\FizzBuzz\Fizzbuzz\obj\Debug\net8.0\FizzBuzz.sourcelink.json
+C:\Users\Hp\Desktop\Desktop\Grit-Project\FizzBuzz\Fizzbuzz\obj\Debug\net8.0\FizzBuzz.dll
+C:\Users\Hp\Desktop\Desktop\Grit-Project\FizzBuzz\Fizzbuzz\obj\Debug\net8.0\refint\FizzBuzz.dll
+C:\Users\Hp\Desktop\Desktop\Grit-Project\FizzBuzz\Fizzbuzz\obj\Debug\net8.0\FizzBuzz.pdb
+C:\Users\Hp\Desktop\Desktop\Grit-Project\FizzBuzz\Fizzbuzz\obj\Debug\net8.0\FizzBuzz.genruntimeconfig.cache
+C:\Users\Hp\Desktop\Desktop\Grit-Project\FizzBuzz\Fizzbuzz\obj\Debug\net8.0\ref\FizzBuzz.dll
