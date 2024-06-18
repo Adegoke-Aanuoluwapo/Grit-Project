@@ -12,27 +12,35 @@ namespace Tutorial
            static void Main(string[] args)
            {
           
-              
-              Console.WriteLine("Enter a number: ");
-              int number = Convert.ToInt32(Console.ReadLine());
-            
-               
-              if(number % 3 == 0 && number % 5 == 0)
+              bool threeDiv = false;
+              bool fiveDiv = false;
+
+              // Console.WriteLine("Enter a number: ");
+              // int number = Convert.ToInt32(Console.ReadLine());
+            for(int i = 1; i <= 100; i++)
+            {
+                threeDiv = i % 3 == 0;
+                fiveDiv = i % 5 == 0;
+                   
+              if(threeDiv && fiveDiv)
               {
                 Console.WriteLine("The number is FizzBuzz");
               }
             
-              else if(number % 5 == 0)
+
+              else if(fiveDiv)
               {
                 Console.WriteLine("The number is Buzz");
 
               }
 
-              else if(number % 3 == 0)
+              else if(threeDiv)
               
               {
                 Console.WriteLine("The number is Fizz");
               }
+            }
+            
              
            
 
