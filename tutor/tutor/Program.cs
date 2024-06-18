@@ -58,6 +58,16 @@ namespace Tutorial
             Console.WriteLine("My name is {0} and I am {1} years old", name, age);
             Console.WriteLine();
             Console.WriteLine("Name: "+ name + "\nAge: "+age);
+             Console.WriteLine("Name: {0}\nAge: {1}",name,age);
+             Console.WriteLine($"Your name is: {name} and you are {age} years old");
+             string test = string.Concat($"Your name is {name} and you are {age}years old");
+             Console.WriteLine(test);
+             string[] names = new string []{"Aba", "Test", "Test2"};
+             Console.WriteLine(string.Concat(names));
+             string greet = Console.ReadLine();
+             Console.WriteLine($"You are welcome {greet}");
+             Console.ReadLine();
+
 
 
     }
