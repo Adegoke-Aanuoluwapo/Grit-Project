@@ -148,23 +148,27 @@ namespace Tutorial
           //     Console.Write(message[i]);
           //       Thread.Sleep(400);
           // }
-          Console.Write("Please enter your message: ");
-          string message = Console.ReadLine();
-          Console.Write(message[0]);
+          // else
+          // {
+          //   Console.Write("Please enter password:");
+          // }
+
+
+          // Console.Write(message[0]);
           
-          Console.WriteLine();
-          Console.WriteLine(message.Length);
-          for (int i = 0; i < message.Length; i++)
-          {
-             Console.Write(message[i]);
-             Thread.Sleep(400);
-          }
-          Console.WriteLine();
-          for(int i = message.Length -1; i >= 0;  i--)
-          {
-            Console.Write(message[i]);
-            Thread.Sleep(400);
-          }
+          // Console.WriteLine();
+          // Console.WriteLine(message.Length);
+          // for (int i = 0; i < message.Length; i++)
+          // {
+          //    Console.Write(message[i]);
+          //    Thread.Sleep(400);
+          // }
+          // Console.WriteLine();
+          // for(int i = message.Length -1; i >= 0;  i--)
+          // {
+          //   Console.Write(message[i]);
+          //   Thread.Sleep(400);
+          // }
 
           
           // for(int i = 0; i < message.Length; i++){
@@ -173,6 +177,46 @@ namespace Tutorial
           // }
           // string reversedMessage = message.reversedMessage;
           // Console.WriteLine("\nReversed message: " + reversedMessage);
+          string  password;
+          string  confirmPassword;
+          do
+          {
+              Console.Write(" Please enter your password: ");
+              password = Console.ReadLine();
+
+          Console.Write("Confirm your password: ");
+           confirmPassword = Console.ReadLine();
+         if(password.Equals(string.Empty))
+         {
+          Console.Write("Password cannot be empty. Please enter your password: ");
+          continue;
+         }
+         if(password.Length < 6 && confirmPassword.Length < 6)
+            {
+               
+              
+                 Console.Write("Password not be less than six digit");
+                 continue;
+          
+          
+            }
+         if (!password.Equals(confirmPassword))
+            {
+                Console.WriteLine("Passwords do not match. Please try again.");
+            }
+           
+            
+          
+           
+         } 
+          while  (!password.Equals(confirmPassword));
+          {
+            Console.Write("Password Matched");
+          }
+        
+
+         
+          
 
           Console.ReadLine();
 
