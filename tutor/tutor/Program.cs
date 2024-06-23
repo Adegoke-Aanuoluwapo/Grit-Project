@@ -177,48 +177,99 @@ namespace Tutorial
           // }
           // string reversedMessage = message.reversedMessage;
           // Console.WriteLine("\nReversed message: " + reversedMessage);
-          string  password;
-          string  confirmPassword;
-          do
-          {
-              Console.Write(" Please enter your password: ");
-              password = Console.ReadLine();
+        //   string  password;
+        //   string  confirmPassword;
+        //   do
+        //   {
+        //       Console.Write(" Please enter your password: ");
+        //       password = Console.ReadLine();
 
-          Console.Write("Confirm your password: ");
-           confirmPassword = Console.ReadLine();
-         if(password.Equals(string.Empty))
-         {
-          Console.Write("Password cannot be empty. Please enter your password: ");
-          continue;
-         }
-         if(password.Length < 6 && confirmPassword.Length < 6)
-            {
+        //   Console.Write("Confirm your password: ");
+        //    confirmPassword = Console.ReadLine();
+        //  if(password.Equals(string.Empty))
+        //  {
+        //   Console.Write("Password cannot be empty. Please enter your password: ");
+        //   continue;
+        //  }
+        //  if(password.Length < 6 && confirmPassword.Length < 6)
+        //     {
                
               
-                 Console.Write("Password not be less than six digit");
-                 continue;
+        //          Console.Write("Password not be less than six digit");
+        //          continue;
           
           
-            }
-         if (!password.Equals(confirmPassword))
-            {
-                Console.WriteLine("Passwords do not match. Please try again.");
-            }
+        //     }
+        //  if (!password.Equals(confirmPassword))
+        //     {
+        //         Console.WriteLine("Passwords do not match. Please try again.");
+        //     }
            
             
           
            
-         } 
-          while  (!password.Equals(confirmPassword));
-          {
-            Console.Write("Password Matched");
-          }
+        //  } 
+        //   while  (!password.Equals(confirmPassword));
+        //   {
+        //     Console.Write("Password Matched");
+        //   }
         
 
+        //  int [] numbers = new int[10];
+          // numbers[0] = 5;
+          // numbers[1] = 13;
+          // numbers[2] = 15;
+          // for(int i = 0; i < numbers.Length; i++)
+          // {
+          //       Console.WriteLine("Please enter  number");
+          //       numbers[i] =Convert.ToInt32(Console.ReadLine());
+          // }
+  
          
-          
+          // int sum = 0;
+          // foreach (int number in numbers)
+          // {
+          //   sum += number;
+          // }
+          // Console.WriteLine($"{sum}");
+          // for(int i = 0; i < numbers.Length; i++)
+          // {
+          //   Console.Write($"{numbers[i]} ");
+          // }
+          // const int angleCount = 3;
+          // int angleSum = 0;
+          // int[] angles = new int[angleCount];
+          // for(int i = 0; i < angles.Length; i++)
+          // {
+          //      Console.Write($"Enter angle  {i + 1}: ");
+          //      angles[i] = Convert.ToInt32(Console.ReadLine());
+          // }
+         
+          // foreach (int number in angles)
+          // {
+          //     angleSum += number;
+          // }
 
-          Console.ReadLine();
+          // Console.WriteLine(angleSum);
+          // Console.WriteLine(angleSum == 180 ? "Triangle is valid" : "Triangle is not valid");
+          int[] numbers = new int[]{1, 2, 7, 4, 5, 8, 6,  9, 10};
+          Array.Sort(numbers);
+          foreach(int number in numbers)
+          {
+            Console.Write($"{number} ");
+          }
+          string test = "";
+          test.Replace(" ", "");
+          
+          Console.WriteLine();
+         
+          Array.Reverse(numbers);
+          foreach(int number in numbers)
+          {
+            Console.Write($"{number} ");
+          }
+
+          Console.ReadLine();    
 
 
     }
