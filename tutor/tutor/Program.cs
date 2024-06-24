@@ -317,6 +317,11 @@ namespace Tutorial
           List<int> listNumbers = new List<int>
           Console.ReadLine();    
           listNumbers.Add(1);
+          listNumbers.Add(2);
+          foreach (int item in listNumbers)
+          {
+            Console.WriteLine(item);
+          }
 
 
     }
