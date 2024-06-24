@@ -252,39 +252,55 @@ namespace Tutorial
 
           // Console.WriteLine(angleSum);
           // Console.WriteLine(angleSum == 180 ? "Triangle is valid" : "Triangle is not valid");
-          int[] numbers = new int[]{1, 2, 7, 4, 5, 8, 6,  9, 10};
-          Array.Sort(numbers);
-          foreach(int number in numbers)
-          {
-            Console.Write($"{number} ");
-          }
-          string test = "";
-          test.Replace(" ", "");
+          // int[] numbers = new int[]{0, 1, 2, 3, 4, 5, 6, 7, 8 , 9};
+          // Array.Sort(numbers);
+          // foreach(int number in numbers)
+          // {
+          //   Console.Write($"{number} ");
+          // }
+          // string test = "";
+          // test.Replace(" ", "");
           
-          Console.WriteLine();
-          int[] sortedNumbers = new int[numbers.Length];
-          int x = 0;
-          for(int i = numbers.Length - 1; i >= 0; i-- )
-          {
-            sortedNumbers[x] = numbers[i];
-            x++;
-          }
-          foreach(int num in sortedNumbers)
-          {
-            Console.Write($"{num} ");
-          }
-          Array.Clear(numbers, 0, numbers.Length);
-          foreach(int num in numbers)
-          {
-            Console.WriteLine($"{num} ");
-          }
-         
+          // Console.WriteLine();
+          // int[] sortedNumbers = new int[numbers.Length];
+          // int x = 0;
+          // for(int i = numbers.Length - 1; i >= 1; i-- )
+          // {
+          //   sortedNumbers[x] = numbers[i];
+          //   x++;
+          // }
+          // foreach(int num in sortedNumbers)
+          // {
+          //   Console.Write($"{num} ");
+          // }
+          // // Array.Clear(numbers, 0, numbers.Length);
+          // Array.Clear(numbers, 5, 5);
+
+          // for (int i = 5; i < 8; i++)
+          // {
+          //   numbers[i] = default;
+          // }
+          // foreach(int num in numbers)
+          // {
+          //     Console.WriteLine($"{num} ");
+          // }
+       
           // Array.Reverse(numbers);
           // foreach(int number in numbers)
           // {
           //   Console.Write($"{number} ");
           // }
-
+          int[] numbers = new int[]
+          {
+            90, 99, 22, 50, 30
+          };
+          Console.WriteLine("Please enter the number to search: ");
+          int search = Convert.ToInt32(Console.ReadLine());
+          int position = Array.IndexOf(numbers, search);
+          if (position >= 0)
+          {
+            Console.WriteLine($"numbers {search} has been found at {position}");
+          }
           Console.ReadLine();    
 
 
