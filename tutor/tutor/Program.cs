@@ -296,11 +296,21 @@ namespace Tutorial
           };
           Console.WriteLine("Please enter the number to search: ");
           int search = Convert.ToInt32(Console.ReadLine());
-          int position = Array.IndexOf(numbers, search);
+          int position = -1;
+          for (int i = 0; i < numbers.Length; i++){
+            if (numbers[i] == search){
+              position = i;
+            }
+          }
+          // int position = Array.IndexOf(numbers, search);
           if (position >= 0)
           {
             Console.WriteLine($"numbers {search} has been found at {position}");
           }
+          else{
+            Console.WriteLine($"numbers {search} has not been found");
+          }
+          // Console.WriteLine($"number {search} is not in the array");
           Console.ReadLine();    
 
 
