@@ -290,28 +290,33 @@ namespace Tutorial
           // {
           //   Console.Write($"{number} ");
           // }
-          int[] numbers = new int[]
-          {
-            90, 99, 22, 50, 30
-          };
-          Console.WriteLine("Please enter the number to search: ");
-          int search = Convert.ToInt32(Console.ReadLine());
-          int position = -1;
-          for (int i = 0; i < numbers.Length; i++){
-            if (numbers[i] == search){
-              position = i;
-            }
-          }
-          // int position = Array.IndexOf(numbers, search);
-          if (position >= 0)
-          {
-            Console.WriteLine($"numbers {search} has been found at {position}");
-          }
-          else{
-            Console.WriteLine($"numbers {search} has not been found");
+          // int[] numbers = new int[]
+          // {
+          //   90, 99, 22, 50, 30
+          // };
+          // Console.WriteLine("Please enter the number to search: ");
+          // int search = Convert.ToInt32(Console.ReadLine());
+          // int position = -1;
+          // for (int i = 0; i < numbers.Length; i++){
+          //   if (numbers[i] == search){
+          //     position = i;
+          //   }
+          // }
+          // // int position = Array.IndexOf(numbers, search);
+          // if (position >= 0)
+          // {
+          //   Console.WriteLine($"numbers {search} has been found at {position}");
+          // }
+          // else{
+          //   Console.WriteLine($"numbers {search} has not been found");
           }
           // Console.WriteLine($"number {search} is not in the array");
+
+          //LIST
+
+          List<int> listNumbers = new List<int>
           Console.ReadLine();    
+          listNumbers.Add(1);
 
 
     }
