@@ -262,12 +262,28 @@ namespace Tutorial
           test.Replace(" ", "");
           
           Console.WriteLine();
-         
-          Array.Reverse(numbers);
-          foreach(int number in numbers)
+          int[] sortedNumbers = new int[numbers.Length];
+          int x = 0;
+          for(int i = numbers.Length - 1; i >= 0; i-- )
           {
-            Console.Write($"{number} ");
+            sortedNumbers[x] = numbers[i];
+            x++;
           }
+          foreach(int num in sortedNumbers)
+          {
+            Console.Write($"{num} ");
+          }
+          Array.Clear(numbers, 0, numbers.Length);
+          foreach(int num in numbers)
+          {
+            Console.WriteLine($"{num} ");
+          }
+         
+          // Array.Reverse(numbers);
+          // foreach(int number in numbers)
+          // {
+          //   Console.Write($"{number} ");
+          // }
 
           Console.ReadLine();    
 
