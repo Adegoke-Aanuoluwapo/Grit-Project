@@ -323,9 +323,13 @@ namespace Tutorial
             int num = Convert.ToInt32(Console.ReadLine());
             listNumbers.Add(num);
        }
-       foreach(int item in listNumbers ){
-        Console.Write($"{item}, ");
-       }
+      //  foreach(int item in listNumbers ){
+      //   Console.Write($"{item}, ");
+      //  }
+      for(int i = 0; i < listNumbers.Count; i++)
+      {
+        Console.Write(listNumbers[i]);
+      }
        Console.ReadLine();
       
     }
