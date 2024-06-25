@@ -309,21 +309,25 @@ namespace Tutorial
           // }
           // else{
           //   Console.WriteLine($"numbers {search} has not been found");
-          }
+        //  }
           // Console.WriteLine($"number {search} is not in the array");
 
           //LIST
 
-          List<int> listNumbers = new List<int>
-          Console.ReadLine();    
-          listNumbers.Add(1);
-          listNumbers.Add(2);
-          foreach (int item in listNumbers)
-          {
-            Console.WriteLine(item);
-          }
-
-
+          List<int> listNumbers = new List<int>();
+           
+         
+       for (int i = 0; i < 5; i++)
+        {
+            Console.WriteLine($"Enter a number {i}: ");  // Iterates over the list and prints each element to the console
+            int num = Convert.ToInt32(Console.ReadLine());
+            listNumbers.Add(num);
+       }
+       foreach(int item in listNumbers ){
+        Console.Write($"{item}, ");
+       }
+       Console.ReadLine();
+      
     }
     
   
