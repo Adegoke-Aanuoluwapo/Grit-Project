@@ -314,24 +314,54 @@ namespace Tutorial
 
           //LIST
 
-          List<int> listNumbers = new List<int>();
+      //     List<int> listNumbers = new List<int>();
            
          
-       for (int i = 0; i < 5; i++)
-        {
-            Console.WriteLine($"Enter a number {i}: ");  // Iterates over the list and prints each element to the console
-            int num = Convert.ToInt32(Console.ReadLine());
-            listNumbers.Add(num);
-       }
-      //  foreach(int item in listNumbers ){
+      //  for (int i = 0; i < 5; i++)
+      //   {
+      //       Console.WriteLine($"Enter a number {i}: ");  // Iterates over the list and prints each element to the console
+      //       int num = Convert.ToInt32(Console.ReadLine());
+      //       listNumbers.Add(num);
+      //  }
+     
+      // for(int i = 0; i < listNumbers.Count; i++)
+      // {
+      //   Console.Write($"{listNumbers[i]}, ");
+      // }
+      // listNumbers.RemoveAt(0);
+      // Console.WriteLine();
+
+      //   foreach(int item in listNumbers ){
       //   Console.Write($"{item}, ");
       //  }
-      for(int i = 0; i < listNumbers.Count; i++)
+      //  Console.ReadLine();
+
+      // DICTIONARY
+      // Dictionary<int, string>names = new Dictionary<int, string>
+      // {
+      //   {1, "John"},
+      //   {2, "Mary"},
+      //   {3, "Jane"}
+      // };
+      // // foreach( name in names)
+      // // {
+      // //   Console.WriteLine($"Key: {name.Key}, Value: {name.Value}");
+      // // }cls
+      // for(int i = 0; i < names.Count; i++)
+      // {
+      //   Console.WriteLine($"Key: {names.Keys.ElementAt(i)} - Value: {names.Values.ElementAt(i)}");
+
+      // }
+      Dictionary<string, string>teachers = new Dictionary<string, string>
       {
-        Console.Write(listNumbers[i]);
+        {"Math", "John"},
+       {"English", "Mary"}
+      };
+      for(int i = 0; i < teachers.Count; i++)
+      {
+        Console.WriteLine($"{teachers.Keys.ElementAt(i)} - {teachers.Values.ElementAt(i)}");
+
       }
-       Console.ReadLine();
-      
     }
     
   
