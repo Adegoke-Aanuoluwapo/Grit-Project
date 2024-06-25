@@ -1,0 +1,15 @@
+C:\Users\Hp\Desktop\Desktop\Grit-Project\OddEvenOut\OddEvenout\bin\Debug\net8.0\OddEvenOut.exe
+C:\Users\Hp\Desktop\Desktop\Grit-Project\OddEvenOut\OddEvenout\bin\Debug\net8.0\OddEvenOut.deps.json
+C:\Users\Hp\Desktop\Desktop\Grit-Project\OddEvenOut\OddEvenout\bin\Debug\net8.0\OddEvenOut.runtimeconfig.json
+C:\Users\Hp\Desktop\Desktop\Grit-Project\OddEvenOut\OddEvenout\bin\Debug\net8.0\OddEvenOut.dll
+C:\Users\Hp\Desktop\Desktop\Grit-Project\OddEvenOut\OddEvenout\bin\Debug\net8.0\OddEvenOut.pdb
+C:\Users\Hp\Desktop\Desktop\Grit-Project\OddEvenOut\OddEvenout\obj\Debug\net8.0\OddEvenOut.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\Desktop\Desktop\Grit-Project\OddEvenOut\OddEvenout\obj\Debug\net8.0\OddEvenOut.AssemblyInfoInputs.cache
+C:\Users\Hp\Desktop\Desktop\Grit-Project\OddEvenOut\OddEvenout\obj\Debug\net8.0\OddEvenOut.AssemblyInfo.cs
+C:\Users\Hp\Desktop\Desktop\Grit-Project\OddEvenOut\OddEvenout\obj\Debug\net8.0\OddEvenOut.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Desktop\Desktop\Grit-Project\OddEvenOut\OddEvenout\obj\Debug\net8.0\OddEvenOut.sourcelink.json
+C:\Users\Hp\Desktop\Desktop\Grit-Project\OddEvenOut\OddEvenout\obj\Debug\net8.0\OddEvenOut.dll
+C:\Users\Hp\Desktop\Desktop\Grit-Project\OddEvenOut\OddEvenout\obj\Debug\net8.0\refint\OddEvenOut.dll
+C:\Users\Hp\Desktop\Desktop\Grit-Project\OddEvenOut\OddEvenout\obj\Debug\net8.0\OddEvenOut.pdb
+C:\Users\Hp\Desktop\Desktop\Grit-Project\OddEvenOut\OddEvenout\obj\Debug\net8.0\OddEvenOut.genruntimeconfig.cache
+C:\Users\Hp\Desktop\Desktop\Grit-Project\OddEvenOut\OddEvenout\obj\Debug\net8.0\ref\OddEvenOut.dll
