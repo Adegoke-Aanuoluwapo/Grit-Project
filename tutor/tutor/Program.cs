@@ -352,15 +352,26 @@ namespace Tutorial
       //   Console.WriteLine($"Key: {names.Keys.ElementAt(i)} - Value: {names.Values.ElementAt(i)}");
 
       // }
-      Dictionary<string, string>teachers = new Dictionary<string, string>
-      {
-        {"Math", "John"},
-       {"English", "Mary"}
-      };
-      for(int i = 0; i < teachers.Count; i++)
-      {
-        Console.WriteLine($"{teachers.Keys.ElementAt(i)} - {teachers.Values.ElementAt(i)}");
+      // Dictionary<string, string>teachers = new Dictionary<string, string>
+      // {
+      //   {"Math", "John"},
+      //  {"English", "Mary"}
+      // };
+      // for(int i = 0; i < teachers.Count; i++)
+      // {
+      //   Console.WriteLine($"{teachers.Keys.ElementAt(i)} - {teachers.Values.ElementAt(i)}");
 
+      // }
+      int num = 7;
+      int length = 5;
+      int[] result = new int [length];
+      for(int i = 0; i < result.Length; i++)
+      {
+        result[i] = num * i;
+      }
+      foreach(int item in result)
+      {
+        Console.Write($"{item} ");
       }
     }
     
