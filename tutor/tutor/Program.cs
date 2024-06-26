@@ -362,12 +362,16 @@ namespace Tutorial
       //   Console.WriteLine($"{teachers.Keys.ElementAt(i)} - {teachers.Values.ElementAt(i)}");
 
       // }
-      int num = 7;
+      Console.WriteLine("Please enter a number");
+      int num = Convert.ToInt32(Console.ReadLine());
+      
       int length = 5;
       int[] result = new int [length];
-      for(int i = 0; i < result.Length; i++)
+      int counter = 0;
+      for(int i = 1; i < result.Length; i++, counter++ )
       {
-        result[i] = num * i;
+        result[counter] = num * i;
+       
       }
       foreach(int item in result)
       {
