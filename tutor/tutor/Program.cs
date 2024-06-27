@@ -362,20 +362,37 @@ namespace Tutorial
       //   Console.WriteLine($"{teachers.Keys.ElementAt(i)} - {teachers.Values.ElementAt(i)}");
 
       // }
-      Console.WriteLine("Please enter a number");
-      int num = Convert.ToInt32(Console.ReadLine());
+      // Console.WriteLine("Please enter a number");
+      // int num = Convert.ToInt32(Console.ReadLine());
       
-      int length = 5;
-      int[] result = new int [length];
-      int counter = 0;
-      for(int i = 1; i < result.Length; i++, counter++ )
-      {
-        result[counter] = num * i;
+      // int length = 5;
+      // int[] result = new int [length];
+      // int counter = 0;
+      // for(int i = 1; i < result.Length; i++, counter++ )
+      // {
+      //   result[counter] = num * i;
        
-      }
-      foreach(int item in result)
+      // }
+      // foreach(int item in result)
+      // {
+      //   Console.Write($"{item} ");
+      // }
+      // FUNCTIONS
+     
+      CreateAndPrintArray();
+      // bool success = int.TryParse("1234", out int result);
+     
+      
+
+    }
+    static   void CreateAndPrintArray()
+    {
+      int[] numbers = new int[5]{
+        0, 1, 3, 4, 5
+      };
+      foreach (int  item in numbers)
       {
-        Console.Write($"{item} ");
+        Console.Write($"{item}, ");
       }
     }
     
