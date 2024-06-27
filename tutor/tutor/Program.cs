@@ -379,21 +379,38 @@ namespace Tutorial
       // }
       // FUNCTIONS
      
-      CreateAndPrintArray();
-      // bool success = int.TryParse("1234", out int result);
+    //Console.Title = ReturnName();
+    
+    PrintIntroduction();
+    Console.WriteLine();
+    
      
       
 
     }
-    static   void CreateAndPrintArray()
+    // static   void CreateAndPrintArray()
+    // {
+    //   int[] numbers = new int[5]{
+    //     0, 1, 3, 4, 5
+    //   };
+    //   foreach (int  item in numbers)
+    //   {
+    //     Console.Write($"{item}, ");
+    //   }
+    //}
+    static string ReturnName()
     {
-      int[] numbers = new int[5]{
-        0, 1, 3, 4, 5
-      };
-      foreach (int  item in numbers)
-      {
-        Console.Write($"{item}, ");
-      }
+      return "Aba";
+    }
+    static int ReturnAge(){
+      return 34;
+    }
+    static void PrintIntroduction()
+    {
+      string name = ReturnName();
+      int age = ReturnAge();
+      string output = $"Hello my name is {name} and I am {age}years old";
+      Console.WriteLine(output);
     }
     
   
