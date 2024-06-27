@@ -407,9 +407,9 @@ namespace Tutorial
     }
     static void PrintIntroduction()
     {
-      string name = ReturnName();
-      int age = ReturnAge();
-      string output = $"Hello my name is {name} and I am {age}years old";
+      // string name = ReturnName();
+      // int age = ReturnAge();
+      string output = $"Hello my name is {ReturnName()} and I am {ReturnAge()}years old";
       Console.WriteLine(output);
     }
     
