@@ -379,11 +379,16 @@ namespace Tutorial
       // }
       // FUNCTIONS
      
-    //Console.Title = ReturnName();
+    Console.Title = $"{ReturnName()}";
     
     PrintIntroduction();
     Console.WriteLine();
-    
+    int[] numbers = new int[3];
+    for(int i =0; i < numbers.Length; i++)
+    {
+      numbers[i] = ReadNumberFromConsole();
+    }
+    Console.WriteLine();
      
       
 
@@ -398,6 +403,11 @@ namespace Tutorial
     //     Console.Write($"{item}, ");
     //   }
     //}
+    static string ReadNumberFromConsole()
+    {
+      Console.Write("Enter a number: ");
+      return Convert.ToInt32(Console.ReadLine());
+    }
     static string ReturnName()
     {
       return "Aba";
