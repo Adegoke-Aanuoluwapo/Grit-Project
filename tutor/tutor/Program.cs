@@ -388,7 +388,18 @@ namespace Tutorial
     {
       numbers[i] = ReadNumberFromConsole();
     }
+    foreach (int number in numbers)
+    {
+      Console.Write($"{number} ");
+
+    }
     Console.WriteLine();
+    int[] newNumbers = CreateRandomArray();
+    foreach (int num in newNumbers)
+    {
+      Console.WriteLine($"{num} ");
+    }
+
      
       
 
@@ -403,7 +414,14 @@ namespace Tutorial
     //     Console.Write($"{item}, ");
     //   }
     //}
-    static string ReadNumberFromConsole()
+    static int[] CreateRandomArray()
+    {
+      int[] numbers = new int[5]{
+        0, 1, 3, 4, 5
+      };
+      return numbers;
+    }
+    static int ReadNumberFromConsole()
     {
       Console.Write("Enter a number: ");
       return Convert.ToInt32(Console.ReadLine());
