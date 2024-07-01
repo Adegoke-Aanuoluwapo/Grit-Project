@@ -76,18 +76,34 @@ namespace MyApp
         // Console.WriteLine(num);
         // Console.ReadLine();
         string name = "joe";
+        Console.WriteLine(name);
         Console.Write("Enter your new name: ");
         string newName =Console.ReadLine();
-        ChangeName(ref name, newName);
-        Console.WriteLine($"Your new name is: {newName}");
+        if(ChangeName(ref name, newName))
+        {
+             Console.WriteLine($"Your new name is: {newName}");
+        }
+        else
+        {
+            Console.WriteLine("New name cannnot be null");
+        }
+         
+       
         }
         static  int Assign()
         {
             return 20;
         }
-        static void ChangeName(ref string name, string newName)
+        static bool ChangeName(ref string name, string newName)
         {
-            name = newName;
+            if(!string.IsNullOrEmpty(newName))
+            {
+
+                     name = newName;
+                     return true;
+            }
+            return false;
+           
         }
     }
 }
