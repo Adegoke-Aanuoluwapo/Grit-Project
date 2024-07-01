@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Reflection;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace MyApp
@@ -43,35 +44,50 @@ namespace MyApp
         // {
         //     return a * b;
         // }
-        List<string> shoppingList =new List<string>
-        {
-                "Coffee", "Milk"
-        };
-        Console.WriteLine(shoppingList.IndexOf("Coffee"));
+    //     List<string> shoppingList =new List<string>
+    //     {
+    //             "Coffee", "Milk"
+    //     };
+    //     Console.WriteLine(shoppingList.IndexOf("Coffee"));
 
-       
+    //    Console.WriteLine("Enter an item to search");
+    //    string search = Console.ReadLine();
         
-        Console.WriteLine(FindInList("Coffee", shoppingList, out int index));
-        if(FindInList("Coffee",shoppingList, out index))
-        {
-            Console.WriteLine($"Found Coffee at index {index}");
+    //     Console.WriteLine(FindInList(search, shoppingList, out int index));
+    //     if(FindInList(search,shoppingList, out index))
+    //     {
+    //         Console.WriteLine($"Found {search} at index {index}");
 
+    //     }
+    //     else{
+    //         Console.WriteLine("Not found");
+    //     }
+    //     }
+    //     static bool FindInList(string s, List<string> list, out int index)
+    //     {
+    //           index = -1;
+    //     for (int i = 0; i <list.Count; i++)
+    //     {
+    //         if(list (10)
+
+    //     }
+        // int num = 10;
+        // num =Assign();
+        // Console.WriteLine(num);
+        // Console.ReadLine();
+        string name = "joe";
+        Console.Write("Enter your new name: ");
+        string newName =Console.ReadLine();
+        ChangeName(ref name, newName);
+        Console.WriteLine($"Your new name is: {newName}");
         }
-        else{
-            Console.WriteLine("Not found");
-        }
-        }
-        static bool FindInList(string s, List<string> list, out int index)
+        static  int Assign()
         {
-              index = -1;
-        for (int i = 0; i <list.Count; i++)
-        {
-            if(list[i].ToLower().Equals(s.ToLower()))
-            {
-                index =i;
-            }
+            return 20;
         }
-        return index > -1;
+        static void ChangeName(ref string name, string newName)
+        {
+            name = newName;
         }
     }
 }
