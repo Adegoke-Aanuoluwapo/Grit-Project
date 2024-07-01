@@ -43,6 +43,35 @@ namespace MyApp
         // {
         //     return a * b;
         // }
+        List<string> shoppingList =new List<string>
+        {
+                "Coffee", "Milk"
+        };
+        Console.WriteLine(shoppingList.IndexOf("Coffee"));
+
+       
+        
+        Console.WriteLine(FindInList("Coffee", shoppingList, out int index));
+        if(FindInList("Coffee",shoppingList, out index))
+        {
+            Console.WriteLine($"Found Coffee at index {index}");
+
+        }
+        else{
+            Console.WriteLine("Not found");
+        }
+        }
+        static bool FindInList(string s, List<string> list, out int index)
+        {
+              index = -1;
+        for (int i = 0; i <list.Count; i++)
+        {
+            if(list[i].ToLower().Equals(s.ToLower()))
+            {
+                index =i;
+            }
+        }
+        return index > -1;
         }
     }
 }
