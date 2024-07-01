@@ -105,10 +105,10 @@ namespace MyApp
         //     }
         //     return false;
         
-         int width =  ReadInt("Enter width");
+         int width =  ReadInt("Enter width: ");
 
         
-          int height =   ReadInt("Enter height");
+          int height =   ReadInt("Enter height: ");
         //   double area = (width*height)*1/2;
            int AreaT = Area(width, height);
           Console.WriteLine($"The area of the triangle is :{AreaT}");
@@ -117,12 +117,13 @@ namespace MyApp
         }
         static int ReadInt(string message)
         {
-            Console.Write(message);
+            Console.WriteLine(message);
             return Convert.ToInt32(Console.ReadLine());
         }
-        static int Area(int a, int b)
+        static int Area(int width, int height)
         {
-            return a * b/2;
+            int calcArea = width * height;
+            return calcArea / 2;
         }
 
     }
