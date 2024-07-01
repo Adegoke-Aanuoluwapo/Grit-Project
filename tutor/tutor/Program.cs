@@ -397,7 +397,7 @@ namespace Tutorial
     int[] newNumbers = CreateRandomArray();
     foreach (int num in newNumbers)
     {
-      Console.WriteLine($"{num} ");
+      Console.Write($"{num} ");
     }
 
      
@@ -414,6 +414,22 @@ namespace Tutorial
     //     Console.Write($"{item}, ");
     //   }
     //}
+    static void Something()
+    {
+
+    }
+    static void conversion()
+    {
+
+    }
+    static void calculation()
+    {
+
+    }
+    static void Add()
+    {
+
+    }
     static int[] CreateRandomArray()
     {
       int[] numbers = new int[5]{

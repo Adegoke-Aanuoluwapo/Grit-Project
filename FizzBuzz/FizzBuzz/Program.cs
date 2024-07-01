@@ -11,35 +11,43 @@ namespace Tutorial
    
            static void Main(string[] args)
            {
-          
-              bool threeDiv = false;
-              bool fiveDiv = false;
+              string speech = "He said \"Something\"";
+              string path = "C:\\Users\\FreeCodeCamp\\Desktop\\Desktop\\C#\nNew Line text\n";
+              //bool threeDiv = false;
+              //bool fiveDiv = false;
+              Console.Write(path);
+              path = @"C:\\Users\\FreeCodeCamp\\Desktop\\Desktop\\C#" + "\nHelp me check";
 
+         
+              Console.WriteLine(path);
+              Console.WriteLine(speech);
+              string name = @"Hello ""Someone""";
+              Console.WriteLine(name);
               // Console.WriteLine("Enter a number: ");
               // int number = Convert.ToInt32(Console.ReadLine());
-            for(int i = 1; i <= 100; i++)
-            {
-                threeDiv = i % 3 == 0;
-                fiveDiv = i % 5 == 0;
+            // for(int i = 1; i <= 100; i++)
+            // {
+            //     threeDiv = i % 3 == 0;
+            //     fiveDiv = i % 5 == 0;
                    
-              if(threeDiv && fiveDiv)
-              {
-                Console.WriteLine("The number is FizzBuzz");
-              }
+            //   if(threeDiv && fiveDiv)
+            //   {
+            //     Console.WriteLine("The number is FizzBuzz");
+            //   }
             
 
-              else if(fiveDiv)
-              {
-                Console.WriteLine("The number is Buzz");
+            //   else if(fiveDiv)
+            //   {
+            //     Console.WriteLine("The number is Buzz");
 
-              }
+            //   }
 
-              else if(threeDiv)
+            //   else if(threeDiv)
               
-              {
-                Console.WriteLine("The number is Fizz");
-              }
-            }
+            //   {
+            //     Console.WriteLine("The number is Fizz");
+            //   }
+            // }
             
              
            
