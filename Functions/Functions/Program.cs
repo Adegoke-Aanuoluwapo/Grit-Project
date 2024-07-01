@@ -1,4 +1,5 @@
 ﻿using System.Reflection;
+using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -75,35 +76,54 @@ namespace MyApp
         // num =Assign();
         // Console.WriteLine(num);
         // Console.ReadLine();
-        string name = "joe";
-        Console.WriteLine(name);
-        Console.Write("Enter your new name: ");
-        string newName =Console.ReadLine();
-        if(ChangeName(ref name, newName))
-        {
-             Console.WriteLine($"Your new name is: {newName}");
-        }
-        else
-        {
-            Console.WriteLine("New name cannnot be null");
-        }
+        // string name = "joe";
+        // Console.WriteLine(name);
+        // Console.Write("Enter your new name: ");
+        // string newName =Console.ReadLine();
+        // if(ChangeName(ref name, newName))
+        // {
+        //      Console.WriteLine($"Your new name is: {newName}");
+        // }
+        // else
+        // {
+        //     Console.WriteLine("New name cannnot be null");
+        // }
          
        
-        }
-        static  int Assign()
-        {
-            return 20;
-        }
-        static bool ChangeName(ref string name, string newName)
-        {
-            if(!string.IsNullOrEmpty(newName))
-            {
+        // }
+        // static  int Assign()
+        // {
+        //     return 20;
+        // }
+        // static bool ChangeName(ref string name, string newName)
+        // {
+        //     if(!string.IsNullOrEmpty(newName))
+        //     {
 
-                     name = newName;
-                     return true;
-            }
-            return false;
-           
+        //              name = newName;
+        //              return true;
+        //     }
+        //     return false;
+        
+         int width =  ReadInt("Enter width");
+
+        
+          int height =   ReadInt("Enter height");
+        //   double area = (width*height)*1/2;
+           int AreaT = Area(width, height);
+          Console.WriteLine($"The area of the triangle is :{AreaT}");
+          
+
         }
+        static int ReadInt(string message)
+        {
+            Console.Write(message);
+            return Convert.ToInt32(Console.ReadLine());
+        }
+        static int Area(int a, int b)
+        {
+            return a * b/2;
+        }
+
     }
 }
